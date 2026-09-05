@@ -61,3 +61,13 @@ node_modules/
 
 # Local AI agent instructions
 /AGENT.md
+
+# 清理缓存
+__pycache__/
+*.pyc
+
+# 本地数据缓存与数据库（本地缓存不上传仓库，重新运行时会新建空白知识库）
+data/asr_tmp/
+data/chroma_db/
+data/bilibili_rag.db
+*.db

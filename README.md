@@ -21,19 +21,6 @@
 
 ---
 
-## 🖼️ 演示与截图
-
-![首页截图](assets/screenshots/home.png)
-![对话界面截图](assets/screenshots/chat.png)
-
-## B站演示视频：
-[演示视频](https://b23.tv/bGXyhjU)
-
-## ⭐ Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=via007/bilibili-rag&type=Date)](https://star-history.com/#via007/bilibili-rag&Date)
-
----
-
 ## ⚡ 快速开始（3 步）
 
 0) 安装 ffmpeg（并确保在 PATH 中）  
@@ -132,7 +119,7 @@ docker compose up --build
 
 ## 🤖 OpenClaw Skill（本地接入）
 
-本仓库已提供一个可直接使用的 Skill：`skills/bilibili-rag-local/SKILL.md`。  
+已提供一个可直接使用的 Skill：`skills/bilibili-rag-local/SKILL.md`。  
 作用：把本地运行的 `bilibili-rag` 服务接入 OpenClaw，让 OpenClaw 直接调用你的收藏夹知识库进行检索和问答。
 
 ### 前置条件
@@ -271,12 +258,3 @@ A：B 站音频直链存在鉴权/过期/区域限制，只有公网可直接拉
 - 对话存储、会话管理、检索历史对话记录
 - 适配更多 LLM 与向量模型
 
----
-
-## 支持项目
-
-如果这个项目对你有帮助，欢迎自愿支持后续维护：
-
-<img src="docs/alipay-support.jpg" alt="支付宝支持项目" width="280">
-
-支持完全自愿，不影响项目免费使用。
